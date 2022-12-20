@@ -1,6 +1,6 @@
 {
   "name": "react-ignore-render",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "IgnoreRender is a React component to ignore renders",
   "author": "ilvetrov",
   "license": "Apache-2.0",
