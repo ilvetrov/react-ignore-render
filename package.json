@@ -75,11 +75,6 @@
     "dist"
   ],
   "keywords": [
-    "state",
-    "store",
-    "synchronous",
-    "immutable",
-    "react",
-    "react hooks"
+    "react"
   ]
 }
