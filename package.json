@@ -1,6 +1,6 @@
 {
   "name": "react-ignore-render",
-  "version": "1.0.1",
+  "version": "1.0.2-0",
   "description": "IgnoreRender is a React component to ignore renders",
   "author": "ilvetrov",
   "license": "Apache-2.0",
@@ -8,12 +8,14 @@
     "type": "git",
     "url": "https://github.com/ilvetrov/react-ignore-render.git"
   },
-  "type": "module",
   "main": "./dist/IgnoreRender.js",
-  "module": "./dist/IgnoreRender.js",
+  "module": "./dist/IgnoreRender.mjs",
   "typings": "./dist/IgnoreRender.d.ts",
   "exports": {
-    ".": "./dist/IgnoreRender.js",
+    ".": {
+      "import": "./dist/IgnoreRender.mjs",
+      "require": "./dist/IgnoreRender.js"
+    },
     "./package.json": "./package.json"
   },
   "engines": {
