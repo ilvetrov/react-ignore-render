@@ -1,4 +1,6 @@
-# IgnoreRender
+<p>
+  <img src="https://raw.githubusercontent.com/ilvetrov/react-ignore-render/main/logo.svg" width="295" height="120" />
+</p>
 
 IgnoreRender is a React component to ignore renders.
 
